@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "baseUrl": "src",
+    "paths": {
+      "@api/*": ["redux/api/*"],
+      "@slice/*": ["redux/slice/*"],
+      "@store/*": ["redux/store/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
